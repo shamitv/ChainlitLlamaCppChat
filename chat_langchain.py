@@ -7,7 +7,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 import chainlit as cl
 
 llama_cpp_host: str = 'localhost'
-llama_cpp_port: int = 8000
+llama_cpp_port: int = 8400
 
 openai_url: str = "http://{host}:{port}/v1".format(host=llama_cpp_host, port=llama_cpp_port)
 
@@ -33,6 +33,7 @@ async def on_chat_start():
                        api_key="...",
                        base_url=openai_url)
     session_history = get_history(session_id)
+    session_history.add_message({"role": "system", "content": "You are a helpful assistant."})
     prompt = ChatPromptTemplate.from_messages(
         [
             MessagesPlaceholder(variable_name="history"),
@@ -57,11 +58,13 @@ async def on_message(message: cl.Message):
     with_message_history = cl.user_session.get("runnable")
     config = {"configurable": {"session_id": session_id,
                                'callbacks': [cl.LangchainCallbackHandler()]}, 'session_id': session_id}
+
+    msg = cl.Message(content="")
     async for chunk in with_message_history.astream(
             {"input": inp},
             config,
     ):
-        await message.stream_token(chunk)
+        await msg.stream_token(chunk)
 
     await message.send()
 
