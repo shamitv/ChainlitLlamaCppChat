@@ -66,11 +66,12 @@ def get_file_from_message(message: cl.Message):
         name = e.name
         path = e.path
         try:
-            # Opening the file in 'read' mode and reading its contents into a variable
-            with open(path, 'r') as file:
-                content = file.read()
-                ret["name"] = name
-                ret["content"] = content
+            if name.endswith(".txt"):
+                # Opening the file in 'read' mode and reading its contents into a variable
+                with open(path, 'r') as file:
+                    content = file.read()
+                    ret["name"] = name
+                    ret["content"] = content
         except Exception as e:
             print(f"An error occurred while reading the file: {e}")
 
