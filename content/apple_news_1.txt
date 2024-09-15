@@ -1,0 +1,29 @@
+Apple’s Johny Srouji confirms all iPhone 16 models have 8GB RAM, more details
+
+On Monday  September 9 2024, Apple touted the new iPhone 16 and iPhone 16 Pro as the first iPhones built from the ground up for Apple Intelligence with the A18 and A18 Pro chips. In a new interview, Apple’s Johny Srouji has offered additional details on the iPhone 16 and Apple Intelligence, including confirmation that all four iPhone 16 models have 8GB of RAM.
+
+Last year, the iPhone 15 and iPhone 15 Plus featured 6GB of RAM, while the iPhone 15 Pro and iPhone 15 Pro Max featured 8GB of RAM. This is believed to be one reason why the iPhone 15 Pro phones can run Apple Intelligence and the other models cannot. This year, all four iPhone 16 models can run Apple Intelligence—partially because they all have 8GB of RAM.
+
+Srouji, Apple’s senior vice president of hardware technologies, confirmed the 8GB of RAM number in an interview with Geekerwan. This marks the first time that Apple has publicly confirmed the amount of RAM in the iPhone 16. Notably, this is a departure from previous years, as Apple typically shies away from sharing these types of specs publicly.
+
+During the interview, Srouji explained that Apple Intelligence was one of the reasons for the RAM increase but noted that other things will benefit as well:
+
+“Our goal is to build the best products, delivering the absolute best user experience. As it relates to Apple Intelligence, DRAM is one aspect. And when we look at what we’re building, whether it’s silicon, hardware, or software, we don’t want to be wasteful in many ways.
+
+We have lots of data that tells us what is going to enable a certain feature, and Apple Intelligence is one of those very, very important features that we want to enable. And we look at different configurations, both for computation and memory bandwidth and memory capacity. And then we make the right trade-off and balance of what actually makes the most sense. So, Apple Intelligence was a major feature that led us to believe that we need to get to 8GB.
+
+But having said that, the 8GB is going to help immensely among other applications, including gaming, high-end gaming, AAA-titled games, and high-end gaming on device. So, I think it’s going to be really, really beneficial.
+
+The other thing to keep in mind, this is one of the benefits of having the software and the silicon and the product fully integrated, is that the software team, our excellent software team, will optimize not only for compute, they’ll also optimize for the memory footprint of each application. So, they don’t end up also wasting memory.
+
+So, we look at all these trade-offs and we end up with, here’s what makes sense, and 8 gigabytes was the most perfect choice for us.”
+
+When asked about how Apple Silicon stacks up against the rest of the industry and why Apple hasn’t focused on increasing core counts like some of its competitors, Srouji explained:
+
+“When you look at the single-thread of performance core across all of our silicon, it’s the absolute best in the industry. We’re leading the industry. If you look at the efficiency cores, same, we’re at the absolute best. We’re leading in a big way.
+
+And then when we look at the configuration, whether it’s a silicon that goes into the iPhone or the iPad or the Mac, we have lots of simulation and performance modeling tools, and we look at actual data. And then we take into account, for example, the battery size for a product, the power delivery system for a product, the thermal envelope for the product, because overbuilding, again, is wasteful.
+
+For example, for the phone, we came to the conclusion that two P4E, so two performance cores and four efficiency cores, meets the needs of what that device requires, because we have the absolute best single-thread, and the efficiency cores are so good for other tasks, and that configuration works.”
+
+
